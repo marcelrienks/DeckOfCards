@@ -4,13 +4,6 @@ namespace DeckOfCards
 {
     public class Card
     {
-        public enum Suits
-        {
-            Hearts,
-            Spades,
-            Diamonds,
-            Clubs
-        }
         public enum Faces
         {
             None,
@@ -20,12 +13,20 @@ namespace DeckOfCards
             Ace
         }
 
+        public enum Suits
+        {
+            Hearts,
+            Spades,
+            Diamonds,
+            Clubs
+        }
+
         public Suits Suit { get; set; }
         public int Number { get; set; }
         public Faces Face { get; set; }
 
         /// <summary>
-        /// Overrides the .ToString method, returning a string describing the card
+        ///     Overrides the .ToString method, returning a string describing the card
         /// </summary>
         /// <returns></returns>
         public override string ToString()

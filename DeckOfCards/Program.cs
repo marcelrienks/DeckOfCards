@@ -13,7 +13,7 @@ namespace DeckOfCards
         }
 
         /// <summary>
-        /// Shows a Deck of Cards to the Console
+        ///     Shows a Deck of Cards to the Console
         /// </summary>
         private static void ShowDeckOfCards()
         {
@@ -24,7 +24,7 @@ namespace DeckOfCards
         }
 
         /// <summary>
-        /// Shows a Shuffled Deck of cards to the Console
+        ///     Shows a Shuffled Deck of cards to the Console
         /// </summary>
         private static void ShowShuffledDeckOfCards()
         {

@@ -4,15 +4,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace DeckOfCardsTest
 {
     /// <summary>
-    ///This is a test class for DeckTest and is intended
-    ///to contain all DeckTest Unit Tests
-    ///</summary>
+    ///     This is a test class for DeckTest and is intended
+    ///     to contain all DeckTest Unit Tests
+    /// </summary>
     [TestClass]
     public class DeckTest
     {
         /// <summary>
-        ///A test for GenerateDeckOfCards
-        ///</summary>
+        ///     A test for GenerateDeckOfCards
+        /// </summary>
         [TestMethod]
         public void GenerateDeckOfCardsTest()
         {
@@ -24,8 +24,8 @@ namespace DeckOfCardsTest
         }
 
         /// <summary>
-        ///A test for GenerateShuffledDeckOfCards
-        ///</summary>
+        ///     A test for GenerateShuffledDeckOfCards
+        /// </summary>
         [TestMethod]
         public void GenerateShuffledDeckOfCardsTest()
         {
